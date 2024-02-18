@@ -33,20 +33,18 @@ body {
 }
 
 #root {
-    min-height: 90vh;
+    min-height: 100lvh;
     display: grid;
     place-items: center;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
 }
 
 .App {
     width: 375px;
-    height: auto;
+    height: 682px;
     background-color: var(--darkVioletTr);
     backdrop-filter: blur(6px);
     border-radius: 50px;
-    overflow-y: auto;
 }
 
 .accent {
