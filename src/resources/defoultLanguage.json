@@ -1,0 +1,41 @@
+[
+    {
+        "number":1,
+        "question":"What is your preferred language?",
+        "description":"Choose language",
+        "options":["English","French","German","Spanish"],
+        "type":"single-select",
+        "answer":null
+    },
+    {
+        "number":2,
+        "question":"What gender do you identify with?",
+        "description":"Please share how do you identify yourself",
+        "options":["Female","Male","Other"],
+        "type":"single-select",
+        "answer":null
+    },
+    {
+        "number":3,
+        "question":"What is your age?",
+        "options":["18-25 years","30-39 years","40-49 years","50+"],
+        "type":"single-select",
+        "answer":null
+    },
+    {
+        "number":4,
+        "question":"What do you hate the most in a book?",
+        "options":["Lack of logic","A slow speed","Lack of humor","Way too generic ending"],
+        "type":"multiple-select",
+        "answer":null
+    },
+    {
+
+        "number":5,
+        "question":"What are your favorite topics?",
+        "description":"Choose up to 3 topics you like",
+        "options":["Werewolf","Romance","Action","Yong Adult","Royal Obsession","Bad Boy","Billionare"],
+        "type":"bubble",
+        "answer":null
+    }
+]

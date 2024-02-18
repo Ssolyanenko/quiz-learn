@@ -1,0 +1,221 @@
+{
+    "en": {
+        "translation": {
+            "loading": "Finding collections for you ...",
+            "email": "Email",
+            "emailPlaceholder": "Enter your email",
+            "emailMessage": "Enter your email to get full access",
+            "emailAgreement": "By continuing I agree with Privacy policy and Terms of use.",
+            "emailError": "Invalid email",
+            "thankYou": "Thank you",
+            "thankYouMessage": "for supporting us and passing quiz",
+            "nextButton": "Next",
+            "retakeQuizButton": "Retake quiz",
+            "downloadButton": "Download my answers",
+            "quiz": [
+                {
+                    "number":1,
+                    "question":"What is your preferred language?",
+                    "description":"Choose language",
+                    "options":["English","French","German","Spanish"],
+                    "type":"single-select","answer":null
+                },
+                {
+                    "number":2,
+                    "question":"What gender do you identify with?",
+                    "description":"Please share how do you identify yourself",
+                    "options":["Female","Male","Other"],
+                    "type":"single-select","answer":null
+                },
+                {
+                    "number":3,
+                    "question":"What is your age?",
+                    "options":["18-25 years","30-39 years","40-49 years","50+"],
+                    "type":"single-select",
+                    "answer":null
+                },
+                {
+                    "number":4,
+                    "question":"What do you hate the most in a book?",
+                    "options":["Lack of logic","A slow speed","Lack of humor","Way too generic ending"],
+                    "type":"multiple-select",
+                    "answer":null
+                },
+                {
+
+                    "number":5,
+                    "question":"What are your favorite topics?",
+                    "description":"Choose up to 3 topics you like",
+                    "options":["Werewolf","Romance","Action","Yong Adult","Royal Obsession","Bad Boy","Billionare"],
+                    "type":"bubble",
+                    "answer":null
+                }
+            ]
+        }
+    },
+    "fr": {
+        "translation": {
+            "loading": "Recherche de collections pour vous...",
+            "email": "Email",
+            "emailPlaceholder": "Entrez votre email",
+            "emailMessage": "Entrez votre email pour obtenir un accès complet",
+            "emailAgreement": "En continuant, j'accepte la politique de confidentialité et les conditions d'utilisation.",
+            "emailError": "Email invalide",
+            "thankYou": "Merci",
+            "thankYouMessage": "de nous soutenir et de passer le quiz",
+            "nextButton": "Suivant",
+            "retakeQuizButton": "Refaire le quiz",
+            "downloadButton": "Télécharger mes réponses",
+            "quiz": [
+                {
+                    "number":1,
+                    "question":"What is your preferred language?",
+                    "description":"Choose language",
+                    "options":["English","French","German","Spanish"],
+                    "type":"single-select",
+                    "answer":null
+                },
+                {
+                    "number": 2,
+                    "question": "Avec quel genre vous identifiez-vous?",
+                    "description": "Veuillez indiquer comment vous vous identifiez",
+                    "options": ["Femme", "Homme", "Autre"],
+                    "type": "single-select",
+                    "answer": null
+                },
+                {
+                    "number": 3,
+                    "question": "Quel est votre âge?",
+                    "options": ["18-25 ans", "30-39 ans", "40-49 ans", "50+"],
+                    "type": "single-select",
+                    "answer": null
+                },
+                {
+                    "number": 4,
+                    "question": "Qu'est-ce que vous détestez le plus dans un livre?",
+                    "options": ["Manque de logique", "Un rythme lent", "Manque d'humour", "Fin beaucoup trop générique"],
+                    "type": "multiple-select",
+                    "answer": null
+                },
+                {
+                    "number": 5,
+                    "question": "Quels sont vos sujets préférés?",
+                    "description": "Choisissez jusqu'à 3 sujets que vous aimez",
+                    "options": ["Loup-garou", "Romance", "Action", "Jeune Adulte", "Obsession royale", "Bad Boy", "Milliardaire"],
+                    "type": "bubble",
+                    "answer": null
+                }
+            ]
+        }
+    },
+    "de": {
+        "translation": {
+            "loading": "Sammlungen für Sie suchen...",
+            "email": "E-Mail",
+            "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+            "emailMessage": "Geben Sie Ihre E-Mail-Adresse ein, um vollen Zugriff zu erhalten",
+            "emailAgreement": "Indem ich fortfahre, stimme ich der Datenschutzrichtlinie und den Nutzungsbedingungen zu.",
+            "emailError": "Ungültige E-Mail-Adresse",
+            "thankYou": "Vielen Dank",
+            "thankYouMessage": "für Ihre Unterstützung und das Bestehen des Quiz",
+            "nextButton": "Weiter",
+            "retakeQuizButton": "Quiz erneut machen",
+            "downloadButton": "Meine Antworten herunterladen",
+            "quiz": [
+                {
+                    "number":1,
+                    "question":"What is your preferred language?",
+                    "description":"Choose language",
+                    "options":["English","French","German","Spanish"],
+                    "type":"single-select",
+                    "answer":null
+                },
+                {
+                    "number": 2,
+                    "question": "Mit welchem Geschlecht identifizieren Sie sich?",
+                    "description": "Bitte teilen Sie mit, mit welchem Geschlecht Sie sich identifizieren",
+                    "options": ["Weiblich", "Männlich", "Andere"],
+                    "type": "single-select",
+                    "answer": null
+                },
+                {
+                    "number": 3,
+                    "question": "Wie alt bist du?",
+                    "options": ["18-25 Jahre", "30-39 Jahre", "40-49 Jahre", "50+"],
+                    "type": "single-select",
+                    "answer": null
+                },
+                {
+                    "number": 4,
+                    "question": "Was hassen Sie am meisten an einem Buch?",
+                    "options": ["Mangel an Logik", "Ein langsames Tempo", "Mangel an Humor", "Viel zu generisches Ende"],
+                    "type": "multiple-select",
+                    "answer": null
+                },
+                {
+                    "number": 5,
+                    "question": "Was sind deine Lieblingsthemen?",
+                    "description": "Wähle bis zu 3 Themen, die dir gefallen",
+                    "options": ["Werwolf", "Romantik", "Action", "Junge Erwachsene", "Königliche Obsession", "Bad Boy", "Milliardär"],
+                    "type": "bubble",
+                    "answer": null
+                }
+            ]
+        }
+    },
+    "es": {
+        "translation": {
+            "loading": "Buscando colecciones para ti...",
+            "email": "Correo electrónico",
+            "emailPlaceholder": "Ingrese su correo electrónico",
+            "emailMessage": "Ingrese su correo electrónico para obtener acceso completo",
+            "emailAgreement": "Al continuar, acepto la política de privacidad y los términos de uso.",
+            "emailError": "Correo electrónico no válido",
+            "thankYou": "Gracias",
+            "thankYouMessage": "por apoyarnos y aprobar el cuestionario",
+            "nextButton": "Siguiente",
+            "retakeQuizButton": "Repetir cuestionario",
+            "downloadButton": "Descargar mis respuestas",
+            "quiz": [
+                {
+                    "number":1,
+                    "question":"What is your preferred language?",
+                    "description":"Choose language",
+                    "options":["English","French","German","Spanish"],
+                    "type":"single-select",
+                    "answer":null
+                },
+                {
+                    "number": 2,
+                    "question": "¿Con qué género te identificas?",
+                    "description": "Por favor, comparte cómo te identificas",
+                    "options": ["Femenino", "Masculino", "Otro"],
+                    "type": "single-select",
+                    "answer": null
+                },
+                {
+                    "number": 3,
+                    "question": "¿Cuál es tu edad?",
+                    "options": ["18-25 años", "30-39 años", "40-49 años", "50+"],
+                    "type": "single-select",
+                    "answer": null
+                },
+                {
+                    "number": 4,
+                    "question": "¿Qué es lo que más odias en un libro?",
+                    "options": ["Falta de lógica", "Una velocidad lenta", "Falta de humor", "Final demasiado genérico"],
+                    "type": "multiple-select",
+                    "answer": null
+                },
+                {
+                    "number": 5,
+                    "question": "¿Cuáles son tus temas favoritos?",
+                    "description": "Elige hasta 3 temas que te gusten",
+                    "options": ["Hombre lobo", "Romance", "Acción", "Jóvenes Adultos", "Obsesión Real", "Chico Malo", "Multimillonario"],
+                    "type": "bubble",
+                    "answer": null
+                }
+            ]
+        }
+    }
+}

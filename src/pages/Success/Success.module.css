@@ -1,0 +1,64 @@
+.container {
+    display: grid;
+    grid-template-rows: 520px 40px 94px;
+    align-items: center;
+}
+
+.main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.title-area {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title {
+    font-size: 36px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+.icon {
+    width: 118px;
+    height: 118px;
+    margin-inline: auto;
+}
+
+.download {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-inline: auto;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    background: none;
+}
+
+.download img {
+    width: 42px;
+    height: 42px;
+}
+.message{
+    color: var(--textSecondary);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+}
+.button{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button:hover{
+    cursor: pointer;
+}

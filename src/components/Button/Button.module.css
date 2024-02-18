@@ -1,0 +1,24 @@
+.customButton {
+    width: 335px;
+    height: 56px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background-color: var(--pink);
+    padding: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: var(--textPrimary);
+    text-align: center;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.customButton:hover {
+    background: #93075f;
+}
+
+.customButton:disabled {
+    background: #93075f;
+}

@@ -1,0 +1,30 @@
+.container {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.loader-box {
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.title {
+    width: 200px;
+    text-align: center;
+}
+
+.progress-span {
+    color: #E8EAF2;
+    position: absolute;
+    font-size: 52px;
+    font-weight: 800;
+}

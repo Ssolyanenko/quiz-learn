@@ -1,0 +1,101 @@
+.main {
+    padding: 45px 20px 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.questionArea {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.optionsArea {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.identify {
+    display: flex;
+    flex-direction: row;
+}
+
+.pic {
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    gap: 0;
+    margin-left: 28%;
+    margin-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.description {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.option {
+    width: 100%;
+    padding: 18px 20px;
+    border-radius: 16px;
+    background-color: var(--lightViolet);
+    color: inherit;
+    font-weight: 500;
+    outline: 2px solid transparent;
+    transition: all .2s linear;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 23px;
+}
+
+.option:hover {
+    background: var(--pinkTransparent);
+}
+.selected {
+    background: var(--pinkTransparent);
+    border: 1px solid var(--pink);;
+}
+
+
+.option input:checked ~ .checkbox {
+    background: var(--pink);
+}
+
+.checkbox {
+    display: grid;
+    place-items: center;
+    width: 23px;
+    height: 23px;
+    background-color: #6D4376;
+    border: 1px solid var(--pink);
+    border-radius: 8px;
+}
+
+.title {
+    color: var(--textPrimary);
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.message {
+    color: var(--textSecondary);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}

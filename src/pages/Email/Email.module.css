@@ -1,0 +1,65 @@
+.gridContainer {
+    display: grid;
+    grid-template-rows: 596px 96px;
+    align-items: center;
+}
+
+.mainContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 56px;
+}
+
+.titleArea {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title{
+    color: var(--textPrimary);
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.message{
+    color: var(--textSecondary);
+     font-weight: 400;
+     font-size: 16px;
+     text-align: center;
+     font-family: "Roboto", sans-serif;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 26px 20px;
+    border-radius: 16px;
+    background-color: var(--lightViolet);
+    color: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    outline: none;
+}
+
+.inputBox input.error {
+    outline: 1px solid red;
+}
+
+.errorMessage {
+    position: absolute;
+    margin: 8px 16px 0;
+    font-size: 14px;
+    color: red;
+}
+
+.agreementMessage {
+    font-size: 16px;
+}
